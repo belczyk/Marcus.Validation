@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marcus.Validation", "Marcus.Validation\Marcus.Validation.csproj", "{6F8CDC82-5DA9-41E6-AD43-225093B99B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marcus.Validation.Tests", "Marcus.Validation.Tests\Marcus.Validation.Tests.csproj", "{FD44F461-CCCD-488E-BCE4-359951FD1FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F8CDC82-5DA9-41E6-AD43-225093B99B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8CDC82-5DA9-41E6-AD43-225093B99B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8CDC82-5DA9-41E6-AD43-225093B99B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8CDC82-5DA9-41E6-AD43-225093B99B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD44F461-CCCD-488E-BCE4-359951FD1FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD44F461-CCCD-488E-BCE4-359951FD1FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD44F461-CCCD-488E-BCE4-359951FD1FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD44F461-CCCD-488E-BCE4-359951FD1FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C46EFFA-6E02-436C-AA41-5608FFE69D9D}
+	EndGlobalSection
+EndGlobal
