@@ -7,6 +7,10 @@
     <Authors>Sebastian Belczyk</Authors>
     <Version>0.1.0</Version>
     <RepositoryType>GIT</RepositoryType>
+    <PackageProjectUrl>https://github.com/belczyk/Marcus.Validation</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/belczyk/Marcus.Validation/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>Sebastian Bełczyk</Copyright>
+    <RepositoryUrl>https://github.com/belczyk/Marcus.Validation</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
