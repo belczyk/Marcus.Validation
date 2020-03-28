@@ -2,11 +2,13 @@
 {
     public class StubObjectValidator : Validator<StubObject>
     {
-        protected override void ValidateObject(StubObject obj)
+        protected override Validator ValidateObject(StubObject obj)
         {
             NotNullOrWhiteSpace(obj.StringProperty, nameof(obj.StringProperty));
             NotDefault(obj.IntProperty, nameof(obj.IntProperty));
             NullOrNotEmptyGuid(obj.GuidProperty, nameof(obj.GuidProperty));
+
+            return this;
         }
     }
 }

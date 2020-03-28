@@ -5,7 +5,7 @@ using Xunit;
 
 namespace Marcus.Validation.Tests
 {
-    public class ValidatorBaseTests : ValidatorBase
+    public class ValidatorBaseTests : Validator
     {
         private const string PropertyName = "property";
         private StubObjectWithValidation StubObjectWithValidation { get; set; }
