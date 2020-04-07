@@ -19,7 +19,7 @@ namespace Marcus.Validation
             result.ThrowIfInvalid();
         }
 
-        protected abstract Validator ValidateObject(T obj);
+        protected abstract void ValidateObject(T obj);
     }
 
     public abstract class Validator
