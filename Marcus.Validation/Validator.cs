@@ -104,7 +104,7 @@ namespace Marcus.Validation
             var i = 0;
             foreach (var guid in guids)
             {
-                if (guid == default(Guid))
+                if (guid == default)
                     rule.BrokenRules.Add(new Rule($"{name}[{i}]",
                         $"Element can't have default value ({default(Guid)})."));
                 i++;
@@ -225,7 +225,7 @@ namespace Marcus.Validation
 
         protected virtual Validator NotNullOrDefault(Guid? value, string name, string description = null)
         {
-            if (value == null || value.Value == default(Guid))
+            if (value == null || value.Value == default)
                 ValidationResult.AddRule(name, description ?? $"{name} can't be null or default(Guid).");
             return this;
         }
